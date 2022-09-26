@@ -1,0 +1,106 @@
+// app global css in SCSS form
+.login-label{
+  color: $primary;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+/* app global css */
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+  font-family: Manrope;
+}
+
+.bg-gradient {
+  background: linear-gradient(87.76deg, #f57382 3.77%, #a662fd 96.33%);
+}
+
+.bg-gray-1 {
+  background: #f6f6f6 !important;
+}
+
+.text-gray-1 {
+  color: #7b7b7b !important;
+}
+
+.bg-gray-2 {
+  background: #ebebeb !important;
+}
+
+.text-gray-2 {
+  color: #7b7b7b !important;
+}
+
+.bg-gray-3 {
+  background: #ababab !important;
+}
+
+.text-gray-3 {
+  color: #7b7b7b !important;
+}
+
+.bg-gray-4 {
+  background: #7b7b7b !important;
+}
+
+.text-gray-4 {
+  color: #7b7b7b !important;
+}
+
+.text-black {
+  color: #202020 !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: #333333;
+}
+
+.q-tooltip {
+  background: #f6f6f6;
+  border: 0.5px solid #ababab;
+  box-shadow: 0px 4px 45px rgba(18, 51, 75, 0.1);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #202020;
+}
+
+.q-icon{
+  svg,img{
+    width: 1em;
+    height: 1em;
+  }
+}
