@@ -1,0 +1,65 @@
+@import './config.scss';
+
+@mixin user-menu-item {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+@mixin gradient-button {
+  background: $primary-gradient;
+  color: white;
+  border-radius: 6px;
+}
+
+@mixin gradient-text {
+  background: $primary-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@mixin gradient-button-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 30px;
+  /* identical to box height */
+
+  letter-spacing: 0.01em;
+  text-decoration-line: underline;
+
+  /* Gradient/Button */
+
+  @include gradient-text;
+}
+
+@mixin title-1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 26px;
+}
+
+@mixin label-1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+@mixin status($color) {
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 8px 16px;
+  text-align: center;
+  color: $color;
+  background-color: mix($color, white, 10%);
+}
